@@ -82,7 +82,7 @@ POSTGRES_DATABASE=nom_database
 
 _nb: ajouter .env dans .gitignore pour que notre mot de passe ne soit pas devoilé_
 
-## Etape 8 : dans main.ts, configurer le préfixe global de l'api dans async function bootstrap(){}
+## Etape 8(bis) : dans main.ts, configurer le préfixe global de l'api dans async function bootstrap(){}
 ```
 app.setGlobalPrefix('api'),
 ```
