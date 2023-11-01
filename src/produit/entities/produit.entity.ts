@@ -19,7 +19,7 @@ export class Produit {
   prix: number;
 
   @Column()
-  quantité: number;
+  quantity: number;
 
   @Column()
   id_categorie: number;

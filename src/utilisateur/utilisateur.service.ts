@@ -18,7 +18,7 @@ export class UtilisateurService {
   }
 
   findAll() {
-    return `This action returns all utilisateur`;
+    return this.utilisateurRepository.find();
   }
 
   findOne(id: number) {
